@@ -136,7 +136,7 @@ onConstructor：生成指定注解的构造器，默认为空
 
 作用：相当于注解集合。效果等同于 **@Getter + @Setter + @ToString + @EqualsAndHashCode + @RequiredArgsConstructor** 效果同和这5个注解的效果。
 
-注：该注解并不包括@NoArgsConstructor和@AllArgsConstructor注解效果，且在有继承的情况下不建议使用此注解，因为这里的equals无法进行精确设定，容易出现问题。
+注：该注解并不包括@NoArgsConstructor和@AllArgsConstructor注解效果，且在有继承的情况下不建议单独使用此注解，因为这里的equals方法没有经过设定，容易出现问题，应和@EqualsAndHashCode配合使用。
 
 位置：指定在类中
 
