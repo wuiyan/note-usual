@@ -16,7 +16,7 @@ JUL 全称 : Java util logging ，Java原生的日志框架，主要用于小型
 - **Level**：日志输出级别，Logger 和 Handeler 都有一个 Level 级别，如两者出现冲突时，以级别高的等级为准。
 - **Filters**：过滤器，可以自主过滤掉不需要的日志信息，可以在 Logger 和 Handeler 上分别设置。
 
-![](https://img2020.cnblogs.com/blog/2263764/202012/2263764-20201230151339584-844674154.png)
+![流程图](D:/macdown/图片/JUL日志框架学习笔记/流程图.png)
 
 
 
